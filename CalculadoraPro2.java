@@ -93,7 +93,7 @@ public class CalculadoraPro2 {
             menu = teclado.nextInt();
         }//fin while
         
-        
+        System.out.println("ADIOS"); 
         
     }//cierre main
     
