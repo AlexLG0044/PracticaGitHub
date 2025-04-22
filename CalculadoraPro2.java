@@ -16,7 +16,7 @@ public class CalculadoraPro2 {
         System.out.println("Bienvenido a la calculadora++ ");
         
         //Introducir valores numericos
-        double numero1, numero2, resultadoSuma, resultadoResta, resultadoMultiplicacion, resultadoDivision, resultadoResto;
+        double numero1, numero2, resultadoSumar, resultadoRestar, resultadoMultiplicacion, resultadoDivision, resultadoResto;
         
         System.out.println("Introduce un numero: ");
         numero1 = teclado.nextDouble();
@@ -24,8 +24,8 @@ public class CalculadoraPro2 {
         numero2 = teclado.nextDouble();
         
         //crear operaciones
-        resultadoSuma = (numero1 + numero2);
-        resultadoResta = (numero1 - numero2);
+        resultadoSumar = (numero1 + numero2);
+        resultadoRestar = (numero1 - numero2);
         resultadoMultiplicacion = (numero1 * numero2);
         resultadoDivision = (numero1 / numero2);
         resultadoResto = (numero1 % numero2);
